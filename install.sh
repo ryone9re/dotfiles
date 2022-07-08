@@ -8,3 +8,5 @@ for f in .??*; do
 
 	ln -snfv ${PWD}/"$f" ~/
 done
+
+ln -snfv ${PWD}/nvim/* ${HOME}/.config/nvim
