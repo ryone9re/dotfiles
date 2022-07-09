@@ -52,7 +52,7 @@ repo = 'airblade/vim-gitgutter'
 [[plugins]]
 repo = '42Paris/42header'
 hook_add = '''
-  let g:user42 = "rkurimomt"
+  let g:user42 = "rkurimot"
   let g:mail42 = "rkurimot@student.42tokyo.jp"
   nnoremap <silent> <C-A-h> :Stdheader<CR>
 '''

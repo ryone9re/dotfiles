@@ -46,8 +46,29 @@ on_event = 'BufEnter'
 hook_source= '''
   lua << EOF
   local lsp_installer = require("nvim-lsp-installer")
+
+  lsp_installer.settings({
+    ui = {
+      icons = {
+        server_installed = '◍',
+        server_pending = '◍',
+        server_uninstalled = '◍',
+      },
+      keymaps = {
+        toggle_server_expand = '<CR>',
+        install_server = 'i',
+        update_server = 'u',
+        uninstall_server = 'x',
+      },
+    },
+  })
+
   lsp_installer.on_server_ready(function(server)
     local opts = {}
+    opts.on_attach = function(client,buffer_number)
+      print(vim.inspect(client))
+      print(buffer_number)
+    end
     server:setup(opts)
   end)
 '''
@@ -57,17 +78,13 @@ repo = 'williamboman/nvim-lsp-installer'
 on_source = 'nvim-lspconfig'
 
 [[plugins]]
-repo = 'w0rp/ale'
-hook_add = '''
-  let g:ale_sign_column_always = 1
-  let g:ale_fix_on_save = 1
-  let g:ale_completion_enabled = 1
-  let g:ale_sign_error = '⨉'
-  let g:ale_sign_warning = '⚠'
-  let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
-  let g:ale_statusline_format = ['⨉ %d', '⚠ %d', '⬥ ok']
-  let g:ale_linters = {
-    \   'c' : ['clang-check'],
-    \   'cpp' : ['clang-check']
-  \}
+repo = 'matsui54/denops-popup-preview.vim'
+hook_source = '''
+  call popup_preview#enable()
+'''
+
+[[plugins]]
+repo = 'matsui54/denops-signature_help'
+hook_source = '''
+  call signature_help#enable()
 '''
