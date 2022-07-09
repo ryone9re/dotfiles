@@ -9,4 +9,5 @@ for f in .??*; do
 	ln -snfv ${PWD}/"$f" ~/
 done
 
+mkdir -p ${HOME}/.config/nvim
 ln -snfv ${PWD}/nvim/* ${HOME}/.config/nvim
