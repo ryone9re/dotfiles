@@ -38,9 +38,6 @@ repo = 'Yggdroot/indentLine'
 repo = 'bronson/vim-trailing-whitespace'
 
 [[plugins]]
-repo = 'cohama/lexima.vim'
-
-[[plugins]]
 repo = 'tpope/vim-fugitive'
 
 [[plugins]]
