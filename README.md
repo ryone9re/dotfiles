@@ -1,3 +1,3 @@
 ```bash
-bash install.sh
+./install.sh
 ```
