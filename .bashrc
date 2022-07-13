@@ -131,7 +131,7 @@ fi
 . "$HOME/.cargo/env"
 
 # rust tool alias
-# cargo install exa bat procs ripgrep fd-find hexyl tokei deno
+# cargo install exa bat procs ripgrep fd-find hexyl tokei deno zellij
 alias ls='exa'
 alias cat='bat'
 alias ps='procs'
