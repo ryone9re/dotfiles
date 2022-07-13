@@ -19,4 +19,7 @@ alias wc='tokei'
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 
+# clangd settings
+export PATH="$PATH:/usr/local/opt/llvm/bin"
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
