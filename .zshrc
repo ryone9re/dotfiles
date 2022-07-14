@@ -1,6 +1,6 @@
 # my settings
 # local binary path
-export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME//Library/Python/3.8/bin"
 
 # rust settings
 . "$HOME/.cargo/env"
