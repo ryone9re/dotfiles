@@ -6,19 +6,19 @@
  call ddc#custom#patch_global('sources', ['nvim-lsp', 'around', 'vsnip'])
  call ddc#custom#patch_global('sourceOptions', {
       \ '_': {
-      \ 'matchers': ['matcher_head'],
-      \ 'sorters': ['sorter_rank'],
-      \ 'converters': ['converter_remove_overlap'],
+      \   'matchers': ['matcher_head'],
+      \   'sorters': ['sorter_rank'],
+      \   'converters': ['converter_remove_overlap'],
       \ },
       \ 'around': {'mark': 'A'},
       \ 'nvim-lsp': {
-      \ 'mark': 'L',
-      \ 'forceCompletionPattern': '\.\w*|:\w*|->\w*',
+      \   'mark': 'L',
+      \   'forceCompletionPattern': '\.\w*|:\w*|->\w*',
       \ },
       \ })
 
  call ddc#custom#patch_global('sourceParams', {
-      \ 'around': {'maxSize': 500},
+      \   'around': {'maxSize': 500},
       \ })
 
  call ddc#enable()
@@ -71,16 +71,16 @@
  local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
  local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
 
-local opts = { noremap=true, silent=true }
- buf_set_keymap('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>', opts)
- buf_set_keymap('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>', opts)
- buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
- buf_set_keymap('n', 'gs', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
- buf_set_keymap('n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
- buf_set_keymap('n', 'gx', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', opts)
- buf_set_keymap('n', 'g[', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)
- buf_set_keymap('n', 'g]', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>', opts)
-end
+ local opts = { noremap=true, silent=true }
+   buf_set_keymap('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>', opts)
+   buf_set_keymap('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>', opts)
+   buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
+   buf_set_keymap('n', 'gs', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
+   buf_set_keymap('n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
+   buf_set_keymap('n', 'gx', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', opts)
+   buf_set_keymap('n', 'g[', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)
+   buf_set_keymap('n', 'g]', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>', opts)
+ end
 
  local lsp_installer = require("nvim-lsp-installer")
  lsp_installer.on_server_ready(function(server)
