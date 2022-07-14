@@ -6,7 +6,6 @@ export PATH="$PATH:$HOME/Library/Python/3.8/bin"
 . "$HOME/.cargo/env"
 
 # rust tool alias
-# cargo install exa bat procs ripgrep fd-find hexyl tokei deno zellij
 alias ls='exa'
 alias cat='bat'
 alias ps='procs'
