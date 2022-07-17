@@ -13,7 +13,7 @@ let g:indentLine_char = '¦'
 
 " keymaps
 let mapleader = "<Space>"
-nnoremap <silent><C-g> :tabclose<CR>
+nnoremap <silent><C-S-g> :tabclose<CR>
 
 " dein settings
 if &compatible
