@@ -13,7 +13,7 @@ hook_add = '''
   map <C-n> <plug>NERDTreeTabsToggle<CR>
   map <C-e> <plug>NERDTreeTabsToggle<CR>
 '''
-depends = ['nerttree']
+depends = ['nerdtree']
 
 [[plugins]]
 repo = 'vim-denops/denops.vim'
@@ -37,12 +37,6 @@ repo = 'Yggdroot/indentLine'
 
 [[plugins]]
 repo = 'bronson/vim-trailing-whitespace'
-
-[[plugins]]
-repo = 'tpope/vim-fugitive'
-
-[[plugins]]
-repo = 'airblade/vim-gitgutter'
 
 [[plugins]]
 repo = '42Paris/42header'
