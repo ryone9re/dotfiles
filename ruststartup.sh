@@ -1,5 +1,7 @@
 #!/bin/bash
 
+prog="exa bat procs ripgrep fd-find hexyl tokei"
+
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 tmp=`echo $SHELL`
@@ -11,10 +13,12 @@ fi
 
 if [ $sh == "/zsh" ]; then
 	source ~/.zshrc
+	cargo install starship --locked
 fi
 
 if [ $sh == "fish" ]; then
 	source ~/.fishrc
+	cargo install starship --locked
 fi
 
-cargo install exa bat procs ripgrep fd-find hexyl tokei
+cargo install $prog
