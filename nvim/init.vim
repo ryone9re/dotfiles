@@ -9,8 +9,6 @@ set smartindent
 set tabstop=4
 set relativenumber
 set wildmenu
-syntax enable
-filetype plugin indent on
 let g:indentLine_char = '¦'
 
 " keymaps
@@ -39,6 +37,8 @@ if dein#load_state(s:dein_dir)
 	let s:toml_dir = expand('~/.config/nvim')
 	call dein#load_toml(s:toml_dir . '/dein.toml', {'lazy': 0})
 	call dein#end()
+	filetype plugin indent on
+	syntax enable
 	call dein#save_state()
 endif
 

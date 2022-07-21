@@ -130,6 +130,9 @@ fi
 # rust settings
 . "$HOME/.cargo/env"
 
+# zellij auto start
+eval "$(zellij setup --generate-auto-start bash --dump-layout layout)"
+
 # rust tool alias
 alias ls='exa'
 alias cat='bat'

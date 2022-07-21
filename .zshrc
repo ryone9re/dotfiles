@@ -5,6 +5,9 @@ export PATH="$PATH:$HOME/Library/Python/3.8/bin"
 # rust settings
 . "$HOME/.cargo/env"
 
+# zellij auto start
+eval "$(zellij setup --generate-auto-start zsh)"
+
 # rust tool alias
 alias ls='exa'
 alias cat='bat'
