@@ -17,4 +17,4 @@ if [ $sh == "fish" ]; then
 	source ~/.fishrc
 fi
 
-cargo install exa bat procs ripgrep fd-find hexyl tokei deno zellij
+cargo install exa bat procs ripgrep fd-find hexyl tokei
