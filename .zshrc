@@ -20,3 +20,6 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 
 # clangd settings
 export PATH="$PATH:/usr/local/opt/llvm/bin"
+
+# starship init
+eval "$(starship init zsh)"
