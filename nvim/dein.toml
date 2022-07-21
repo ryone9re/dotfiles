@@ -2,12 +2,16 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
+repo = 'arcticicestudio/nord-vim'
+hook_add = '''
+  colorscheme nord
+'''
+
+[[plugins]]
 repo = 'neoclide/coc.nvim'
 marged = '0'
 rev = 'release'
 hook_add = '''
-  set pumblend=10
-
   " TextEdit might fail if hidden is not set.
   set hidden
 

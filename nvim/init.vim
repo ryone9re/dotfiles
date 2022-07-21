@@ -4,9 +4,11 @@ set cursorline
 set fileencodings=utf-8,cp932
 set laststatus=2
 set list listchars=tab:\▸\-
+set pumblend=5
 set shiftwidth=4
 set smartindent
 set tabstop=4
+set termguicolors
 set relativenumber
 set wildmenu
 let g:indentLine_char = '¦'
@@ -15,6 +17,7 @@ let g:indentLine_char = '¦'
 let mapleader = "<Space>"
 nnoremap <silent><C-S-g> :tabclose<CR>
 nnoremap <Return><Return> <c-w><c-w>
+nnoremap <Tab><Tab> gt
 
 " dein settings
 if &compatible
