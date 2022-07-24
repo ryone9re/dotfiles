@@ -13,12 +13,10 @@ fi
 
 if [ $sh == "/zsh" ]; then
 	source ~/.zshrc
-	cargo install starship --locked
 fi
 
 if [ $sh == "fish" ]; then
 	source ~/.fishrc
-	cargo install starship --locked
 fi
 
 cargo install $prog

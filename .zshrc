@@ -26,6 +26,3 @@ export PATH="/usr/local/bin:$PATH"
 
 # clangd settings
 export PATH="/usr/local/opt/llvm/bin:$PATH"
-
-# starship init
-eval "$(starship init zsh)"
