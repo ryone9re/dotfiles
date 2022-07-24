@@ -21,6 +21,9 @@ alias wc='tokei'
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 
+# brew bin path
+export PATH="/usr/local/bin:$PATH"
+
 # clangd settings
 export PATH="/usr/local/opt/llvm/bin:$PATH"
 
