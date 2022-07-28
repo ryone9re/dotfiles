@@ -16,3 +16,5 @@ fi
 if [ $sh == "fish" ]; then
 	source ~/.fishrc
 fi
+
+volta install node@lts
