@@ -10,7 +10,8 @@ hook_add = '''
 [[plugins]]
 repo = 'neoclide/coc.nvim'
 marged = '0'
-rev = 'release'
+#rev = 'release'
+rev = '87e5dd692ec8ed7be25b15449fd0ab15a48bfb30'
 hook_add = '''
   " TextEdit might fail if hidden is not set.
   set hidden
