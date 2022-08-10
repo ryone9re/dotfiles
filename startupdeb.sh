@@ -1,6 +1,6 @@
 #!/bin/bash
 
-prog="binutils build-essential curl diffutils lldb llvm neovim"
+prog="binutils build-essential clangd clang-format curl diffutils lldb llvm neovim"
 
 yes | sudo add-apt-repository ppa:neovim-ppa/unstable
 yes | sudo apt update
