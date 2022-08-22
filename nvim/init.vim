@@ -6,6 +6,7 @@ set laststatus=2
 set list listchars=tab:\▸\-
 set pumblend=20
 set shiftwidth=4
+set splitright
 set smartindent
 set tabstop=4
 set termguicolors
