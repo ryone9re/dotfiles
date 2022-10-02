@@ -213,7 +213,7 @@ hook_add = '''
   let g:ale_fixers = {
   \  'rust': ['rustfmt'],
   \}
-  let g:ale_rustfmt_executable = 'rustfmt''
+  let g:ale_rustfmt_executable = 'rustfmt'
 '''
 
 [[plugins]]
