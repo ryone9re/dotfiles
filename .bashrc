@@ -145,3 +145,8 @@ alias wc='tokei'
 # volta settings
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+# haskell stack alias
+alias ghci='stack ghci'
+alias ghc='stack ghc --'
+alias runghc='stack runghc --'
