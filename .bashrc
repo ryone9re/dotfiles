@@ -142,9 +142,8 @@ alias find='fd'
 alias od='hexyl'
 alias wc='tokei'
 
-# volta settings
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
+# node settings
+eval "$(fnm env --use-on-cd)"
 
 # ghcup
 [ -f "/home/ryo/.ghcup/env" ] && source "/home/ryo/.ghcup/env" # ghcup-env
