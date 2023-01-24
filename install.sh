@@ -53,6 +53,4 @@ done
 
 mkdir -p ${HOME}/.config
 ln -snfv ${PWD}/nvim ${HOME}/.config/nvim
-
-mkdir -p ${HOME}/.config/zellij
-ln -snfv ${PWD}/zellij/* ${HOME}/.config/zellij
+ln -snfv ${PWD}/zellij ${HOME}/.config/zellij
