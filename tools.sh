@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 prog="binutils build-essential clangd clang-format cmake curl diffutils lldb llvm neovim pkg-config python3-pip"
 
