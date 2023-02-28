@@ -13,8 +13,7 @@ repo = 'ConradIrwin/vim-bracketed-paste'
 [[plugins]]
 repo = 'neoclide/coc.nvim'
 marged = '0'
-#rev = 'release'
-rev = '87e5dd692ec8ed7be25b15449fd0ab15a48bfb30'
+rev = 'release'
 hook_add = '''
   " TextEdit might fail if hidden is not set.
   set hidden
