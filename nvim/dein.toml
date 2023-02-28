@@ -8,6 +8,9 @@ hook_add = '''
 '''
 
 [[plugins]]
+repo = 'ConradIrwin/vim-bracketed-paste'
+
+[[plugins]]
 repo = 'neoclide/coc.nvim'
 marged = '0'
 #rev = 'release'
