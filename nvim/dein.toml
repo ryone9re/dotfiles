@@ -217,4 +217,3 @@ hook_add = '''
   \}
   let g:ale_rustfmt_executable = 'rustfmt'
 '''
-'''
