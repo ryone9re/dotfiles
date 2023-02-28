@@ -1,4 +1,4 @@
 #!/bin/sh
 
-prog="bat deno fnm procs zellij"
+prog="bat deno fnm procs ripgrep zellij"
 cargo install $prog
