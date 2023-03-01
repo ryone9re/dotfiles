@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prog="binutils build-essential clangd clang-format cmake curl diffutils lldb llvm neovim pkg-config python3-pip"
+prog="binutils build-essential clangd clang-format cmake curl diffutils lldb llvm neovim pkg-config python3-pip zsh zsh"
 
 sudo add-apt-repository ppa:neovim-ppa/unstable -y
 sudo apt update -y
