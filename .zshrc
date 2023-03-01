@@ -151,7 +151,10 @@ fi
 
 . "$HOME/.cargo/env"
 
-eval "$(zellij setup --generate-auto-start zsh)"
+if [[ $VSCODE_PID == "" ]]; then
+    eval "$(zellij setup --generate-auto-start zsh)"
+fi
+
 eval "$(fnm env --use-on-cd)"
 
 alias ls='exa'
