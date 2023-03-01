@@ -2,9 +2,9 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
-repo = 'arcticicestudio/nord-vim'
+repo = 'dracula/vim'
 hook_add = '''
-  colorscheme nord
+  colorscheme dracula
 '''
 
 [[plugins]]
