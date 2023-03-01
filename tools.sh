@@ -8,3 +8,4 @@ sudo apt upgrade -y
 sudo apt install $prog -y
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh

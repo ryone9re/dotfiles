@@ -161,3 +161,5 @@ alias grep='rg'
 alias find='fd'
 alias od='hexyl'
 alias wc='tokei'
+
+[ -f "/home/ryo/.ghcup/env" ] && source "/home/ryo/.ghcup/env" # ghcup-env
