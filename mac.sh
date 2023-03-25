@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prog="bat binutils clang-format cmake curl dbeaver-community diffutils discord deno exa fd-find fnm gcc hexyl jetbrains-toolbox karabiner-elements kicad llvm make neovim notion procs rupgrep termius tokei visual-studio-code zellij zoom"
+prog="alacritty bat binutils clang-format cmake curl dbeaver-community diffutils discord deno exa fd-find fnm gcc git google-chrome google-japanese-ime hexyl jetbrains-toolbox karabiner-elements kicad llvm make neovim notion procs raycast rupgrep termius the-unarchiver tokei visual-studio-code zellij zoom"
 
 brew install $prog
 
