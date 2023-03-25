@@ -166,3 +166,8 @@ alias od='hexyl'
 alias wc='tokei'
 
 [ -f "/home/ryo/.ghcup/env" ] && source "/home/ryo/.ghcup/env" # ghcup-env
+
+export PATH="/opt/homebrew/opt/binutils/bin:$PATH"
+export PATH="/opt/homebrew/opt/curl/bin:$PATH"
+PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
