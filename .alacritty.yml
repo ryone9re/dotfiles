@@ -12,6 +12,8 @@ window:
 
   decorations: full
 
+  option_as_alt: Both
+
 scrolling:
   history: 10000
 

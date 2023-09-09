@@ -149,15 +149,20 @@ if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi
 
+if type brew &>/dev/null; then
+    FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+    autoload -Uz compinit
+    compinit
+fi
+
 . "$HOME/.cargo/env"
 
-if [[ $VSCODE_PID == "" ]]; then
+if [[ $VSCODE_INJECTION == "" ]]; then
     eval "$(zellij setup --generate-auto-start zsh)"
 fi
 
-eval "$(fnm env --use-on-cd)"
-
-alias ls='exa'
+alias ls='eza'
 alias cat='bat'
 alias ps='procs'
 alias grep='rg'
@@ -167,7 +172,15 @@ alias wc='tokei'
 
 [ -f "/home/ryo/.ghcup/env" ] && source "/home/ryo/.ghcup/env" # ghcup-env
 
-export PATH="/opt/homebrew/opt/binutils/bin:$PATH"
-export PATH="/opt/homebrew/opt/curl/bin:$PATH"
-PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
-export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+export PATH="/Users/ryo/Library/Python/3.11/bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/Users/ryo/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
