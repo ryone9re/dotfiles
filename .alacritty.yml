@@ -25,13 +25,13 @@ tabspaces: 8
 
 font:
   normal:
-    family: PlemolJP Console NFJ
+    family: PlemolJP Console NF
 
   bold:
-    family: PlemolJP Console NFJ
+    family: PlemolJP Console NF
 
   italic:
-    family: PlemolJP Console NFJ
+    family: PlemolJP Console NF
 
   size: 18.0
 

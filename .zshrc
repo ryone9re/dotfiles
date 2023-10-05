@@ -10,7 +10,7 @@ WORDCHARS=${WORDCHARS//\/}
 autoload -Uz compinit
 compinit -d ~/.cache/zcompdump
 zstyle ':completion:*:*:*:*:*' menu select
-zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
 HISTFILE=~/.zsh_history
 HISTSIZE=1000
@@ -34,9 +34,9 @@ force_color_prompt=yes
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-    
-    
-    
+
+
+
     color_prompt=yes
     else
     color_prompt=
@@ -47,7 +47,7 @@ if [ "$color_prompt" = yes ]; then
     PROMPT=$'%F{%(#.cyan.magenta)}┌──${debian_chroot:+($debian_chroot)──}(%B%F{%(#.red.cyan)}%n%(#.😖.🐶)%m%b%F{%(#.cyan.magenta)})-[%B%F{reset}%(6~.%-1~/…/%4~.%5~)%b%F{%(#.cyan.magenta)}]\n└─%B%(#.%F{red}#.%F{cyan}$)%b%F{reset} '
 
     if [ -f /home/placeDirectoryorUserNameHere/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && [ "$color_prompt" = yes ]; then
-    
+
     unsetopt ksharrays
     ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
     ZSH_HIGHLIGHT_STYLES[default]=none
@@ -108,7 +108,7 @@ esac
 new_line_before_prompt=yes
 precmd() {
     print -Pn "$TERM_TITLE"
-    
+
     if [ "$new_line_before_prompt" = yes ]; then
     if [ -z "$_NEW_LINE_BEFORE_PROMPT" ]; then
         _NEW_LINE_BEFORE_PROMPT=1
@@ -128,13 +128,13 @@ if [ -x /usr/bin/dircolors ]; then
     alias diff='diff --color=auto'
     alias ip='ip --color=auto'
 
-    export LESS_TERMCAP_mb=$'\E[1;31m'     
-    export LESS_TERMCAP_md=$'\E[1;36m'     
-    export LESS_TERMCAP_me=$'\E[0m'        
-    export LESS_TERMCAP_so=$'\E[01;33m'    
-    export LESS_TERMCAP_se=$'\E[0m'        
-    export LESS_TERMCAP_us=$'\E[1;32m'     
-    export LESS_TERMCAP_ue=$'\E[0m'        
+    export LESS_TERMCAP_mb=$'\E[1;31m'
+    export LESS_TERMCAP_md=$'\E[1;36m'
+    export LESS_TERMCAP_me=$'\E[0m'
+    export LESS_TERMCAP_so=$'\E[01;33m'
+    export LESS_TERMCAP_se=$'\E[0m'
+    export LESS_TERMCAP_us=$'\E[1;32m'
+    export LESS_TERMCAP_ue=$'\E[0m'
 
     zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 fi
@@ -145,7 +145,7 @@ alias l='ls -CF'
 
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-    
+
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi
 
@@ -175,12 +175,5 @@ alias wc='tokei'
 export PATH="/Users/ryo/Library/Python/3.11/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 
-# pnpm
-export PNPM_HOME="/Users/ryo/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
