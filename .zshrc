@@ -135,9 +135,7 @@ if [ -x /usr/bin/dircolors ]; then
     zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 fi
 
-alias ll='ls -l'
-alias la='ls -A'
-alias l='ls -CF'
+export PATH="/opt/homebrew/bin:$PATH"
 
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -162,4 +160,6 @@ alias find='fd'
 alias od='hexyl'
 alias wc='tokei'
 
-export PATH="/opt/homebrew/bin:$PATH"
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
