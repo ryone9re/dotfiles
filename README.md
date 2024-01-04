@@ -1,3 +1,5 @@
+# dotfiles
+
 ```bash
 ./install.sh
 ```
