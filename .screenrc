@@ -1,5 +1,0 @@
-startup_message off
-caption always "%{= Wk}%-w%{= Bk}%n %t%{-}%+w %-="
-bind c screen 1
-bind 0 screen 10
-screen 1
