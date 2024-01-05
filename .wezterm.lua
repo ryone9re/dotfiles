@@ -5,6 +5,10 @@ if wezterm.config_builder then
   config = wezterm.config_builder()
 end
 
+-- Default window size
+config.initial_cols = 120
+config.initial_rows = 30
+
 -- Theme settings
 config.color_scheme = "Dracula (Official)"
 config.use_fancy_tab_bar = false
