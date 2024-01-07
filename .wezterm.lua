@@ -15,7 +15,7 @@ config.use_fancy_tab_bar = false
 
 -- Font settings
 config.font = wezterm.font("PlemolJP Console NF", {weight=450, stretch="Normal", style="Normal"})
-config.font_size = 16.0
+config.font_size = 18.0
 
 -- Key bindings
 config.keys = {
