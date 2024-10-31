@@ -5,4 +5,3 @@ PROG="appcleaner notion orbstack raycast rectangle karabiner-elements monitorcon
 RUST_TOOLS="eza bat procs ripgrep fd hexyl tokei"
 
 brew install $BROWSER $PROG $RUST_TOOLS
-
