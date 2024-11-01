@@ -164,7 +164,4 @@ alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
-
 export PATH="$PATH:/$HOME/.ghcup/bin"
