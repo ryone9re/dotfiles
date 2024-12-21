@@ -170,5 +170,6 @@
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "remote.autoForwardPortsSource": "hybrid",
-  "lldb.suppressUpdateNotifications": true
+  "lldb.suppressUpdateNotifications": true,
+  "githubPullRequests.createOnPublishBranch": "never"
 }
