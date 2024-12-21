@@ -1,4 +1,4 @@
-#!/bin/bash -eu
+#!/bin/sh -eu
 
 FONTS="font-plemol-jp-nf"
 
