@@ -172,5 +172,7 @@
   "remote.autoForwardPortsSource": "hybrid",
   "lldb.suppressUpdateNotifications": true,
   "githubPullRequests.createOnPublishBranch": "never",
-  "editor.copyWithSyntaxHighlighting": false
+  "editor.copyWithSyntaxHighlighting": false,
+  "redhat.telemetry.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
