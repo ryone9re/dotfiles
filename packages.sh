@@ -1,7 +1,9 @@
 #!/bin/sh -eu
 
 BROWSER="google-chrome"
-PROG="appcleaner notion orbstack oven-sh/bun/bun raycast rectangle karabiner-elements monitorcontrol discord slack the-unarchiver google-japanese-ime visual-studio-code wezterm"
-RUST_TOOLS="eza bat procs ripgrep fd hexyl tokei"
+PROG="appcleaner discord google-japanese-ime karabiner-elements monitorcontrol notion orbstack raycast rectangle slack stack the-unarchiver visual-studio-code wezterm"
+RUST_TOOLS="bat eza fd hexyl procs tokei ripgrep"
 
 brew install $BROWSER $PROG $RUST_TOOLS
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
