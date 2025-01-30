@@ -135,8 +135,6 @@ if [ -x /usr/bin/dircolors ]; then
     zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 fi
 
-export PATH="/opt/homebrew/bin:$PATH"
-
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -150,8 +148,6 @@ if type brew &>/dev/null; then
     compinit
 fi
 
-. "$HOME/.cargo/env"
-
 alias ls='eza'
 alias cat='bat'
 alias ps='procs'
@@ -164,4 +160,5 @@ alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 
-export PATH="$PATH:/$HOME/.ghcup/bin"
+source "$HOME/.orbstack/shell/init.zsh" 2>/dev/null || :
+source "$HOME/.cargo/env"
