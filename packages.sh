@@ -1,7 +1,7 @@
 #!/bin/sh -eu
 
 BROWSER="google-chrome"
-PROG="appcleaner discord ghcup karabiner-elements monitorcontrol notion orbstack raycast rectangle slack the-unarchiver visual-studio-code wezterm"
+PROG="appcleaner discord haskell-stack karabiner-elements monitorcontrol notion orbstack raycast rectangle slack the-unarchiver visual-studio-code wezterm"
 RUST_TOOLS="bat eza fd hexyl procs tokei ripgrep"
 
 brew install $BROWSER $PROG $RUST_TOOLS
