@@ -10,7 +10,7 @@ HISTSIZE=10000
 SAVEHIST=20000
 setopt hist_expire_dups_first hist_ignore_dups hist_ignore_space hist_verify
 
-if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+if [ -x /usr/bin/tput ] && tput setaf 1 &>/dev/null; then
     PROMPT=$'%F{magenta}┌──(%B%F{cyan}%n🐶%m%b%F{magenta})-[%B%F{reset}%(6~.%-1~/…/%4~.%5~)%b%F{magenta}]\n└─%B%F{cyan}$%b%F{reset} '
 else
     PROMPT='%n@%m:%~%# '
