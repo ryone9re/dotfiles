@@ -13,7 +13,7 @@
   "editor.formatOnSave": true,
   "editor.inlayHints.enabled": "onUnlessPressed",
   "editor.inlineSuggest.fontFamily": "'PlemolJP Console NF'",
-  "editor.renderWhitespace": "boundary",
+  "editor.renderWhitespace": "all",
   "editor.snippetSuggestions": "none",
   "editor.suggest.showSnippets": false,
   "editor.tokenColorCustomizations": {
