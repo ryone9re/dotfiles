@@ -174,5 +174,19 @@
   "window.restoreWindows": "none",
   "workbench.colorTheme": "Dracula Theme",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.background1": "#50FA7B48",
+    "editorIndentGuide.background2": "#8BE9FD48",
+    "editorIndentGuide.background3": "#BD93F948",
+    "editorIndentGuide.background4": "#FF79C648",
+    "editorIndentGuide.background5": "#FFB86C48",
+    "editorIndentGuide.background6": "#F1FA8C48",
+    "editorIndentGuide.activeBackground1": "#50FA7BB0",
+    "editorIndentGuide.activeBackground2": "#8BE9FDB0",
+    "editorIndentGuide.activeBackground3": "#BD93F9B0",
+    "editorIndentGuide.activeBackground4": "#FF79C6B0",
+    "editorIndentGuide.activeBackground5": "#FFB86CB0",
+    "editorIndentGuide.activeBackground6": "#F1FA8CB0"
+  }
 }
