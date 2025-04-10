@@ -188,5 +188,7 @@
     "editorIndentGuide.activeBackground4": "#FF79C6B0",
     "editorIndentGuide.activeBackground5": "#FFB86CB0",
     "editorIndentGuide.activeBackground6": "#F1FA8CB0"
-  }
+  },
+  "chat.commandCenter.enabled": false,
+  "rust-analyzer.debug.engine": "vadimcn.vscode-lldb"
 }
