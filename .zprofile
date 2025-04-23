@@ -6,3 +6,4 @@ if [ -x /opt/homebrew/bin/brew ]; then
 fi
 
 export PATH="$PATH:/$HOME/.ghcup/bin"
+export PATH="$PATH:/Applications/IntelliJ IDEA CE.app/Contents/MacOS/idea"
