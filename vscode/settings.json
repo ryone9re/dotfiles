@@ -141,7 +141,6 @@
   "githubPullRequests.createOnPublishBranch": "never",
   "githubPullRequests.pullBranch": "never",
   "haskell.manageHLS": "GHCup",
-  "javascript.inlayHints.enumMemberValues.enabled": true,
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.inlayHints.parameterNames.enabled": "all",
   "javascript.inlayHints.parameterTypes.enabled": true,
@@ -154,6 +153,7 @@
   "redhat.telemetry.enabled": true,
   "remote.autoForwardPortsSource": "hybrid",
   "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.debug.engine": "vadimcn.vscode-lldb",
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.fontSize": 16,
   "typescript.implementationsCodeLens.enabled": true,
@@ -188,7 +188,5 @@
     "editorIndentGuide.activeBackground4": "#FF79C6B0",
     "editorIndentGuide.activeBackground5": "#FFB86CB0",
     "editorIndentGuide.activeBackground6": "#F1FA8CB0"
-  },
-  "chat.commandCenter.enabled": false,
-  "rust-analyzer.debug.engine": "vadimcn.vscode-lldb"
+  }
 }
