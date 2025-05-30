@@ -138,6 +138,9 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "github.copilot.enable": {
+    "*": false
+  },
   "githubPullRequests.createOnPublishBranch": "never",
   "githubPullRequests.pullBranch": "never",
   "haskell.manageHLS": "GHCup",
