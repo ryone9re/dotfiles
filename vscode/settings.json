@@ -138,6 +138,7 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "github.copilot.editor.enableCodeActions": false,
   "github.copilot.enable": {
     "*": false
   },
