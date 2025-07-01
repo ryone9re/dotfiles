@@ -1,4 +1,6 @@
 [tools]
+usage = "latest"
+
 # Rust
 rust = "latest"
 

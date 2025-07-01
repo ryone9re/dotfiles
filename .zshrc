@@ -29,4 +29,5 @@ alias la='ls -A'
 alias l='ls -CF'
 
 [ -f "$HOME/.orbstack/shell/init.zsh" ] && source "$HOME/.orbstack/shell/init.zsh"
+
 eval "$(mise activate zsh)"

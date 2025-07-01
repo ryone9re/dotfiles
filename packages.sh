@@ -5,3 +5,4 @@ PROG="appcleaner cmd-eikana discord google-japanese-ime mise monitorcontrol noti
 RUST_TOOLS="bat eza fd hexyl procs tokei ripgrep"
 
 brew install $BROWSER $PROG $RUST_TOOLS
+mise install
