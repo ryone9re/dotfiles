@@ -1,5 +1,17 @@
 # dotfiles
 
-```bash
+```zsh
 ./setup.sh
+```
+
+---
+
+```zsh
+./packages.sh
+```
+
+---
+
+```zsh
+./fonts.sh
 ```
