@@ -1,0 +1,9 @@
+[tools]
+# Rust
+rust = "latest"
+
+# Java (Eclipse Temurin 21)
+java = "temurin-21"
+
+# Haskell toolchain manager
+ghcup = "latest"
