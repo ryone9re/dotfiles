@@ -1,5 +1,6 @@
 {
   "chat.editor.fontFamily": "'PlemolJP Console NF'",
+  "chat.mcp.autostart": "newAndOutdated",
   "debug.console.fontFamily": "'PlemolJP Console NF'",
   "diffEditor.codeLens": true,
   "editor.codeActionsOnSave": {
