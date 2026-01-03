@@ -1,6 +1,7 @@
 {
   "chat.editor.fontFamily": "'PlemolJP Console NF'",
   "chat.mcp.autostart": "newAndOutdated",
+  "chat.mcp.gallery.enabled": true,
   "debug.console.fontFamily": "'PlemolJP Console NF'",
   "diffEditor.codeLens": true,
   "editor.codeActionsOnSave": {
@@ -210,6 +211,15 @@
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "javascript.referencesCodeLens.enabled": true,
   "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "leetcode.defaultLanguage": "rust",
+  "leetcode.filePath": {
+    "default": {
+      "filename": "${difficulty}_${id}_${snake_case_name}.${ext}",
+      "folder": "src"
+    }
+  },
+  "leetcode.showDescription": "In File Comment",
+  "leetcode.workspaceFolder": "/Users/ryo/projects/apps/arai60",
   "lldb.suppressUpdateNotifications": true,
   "redhat.telemetry.enabled": true,
   "remote.autoForwardPortsSource": "hybrid",

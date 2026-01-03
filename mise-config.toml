@@ -6,3 +6,6 @@ rust = "latest"
 
 # Haskell toolchain manager
 ghcup = "latest"
+
+# Node.js
+node = "lts"

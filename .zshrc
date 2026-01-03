@@ -16,13 +16,15 @@ else
     PROMPT='%n@%m:%~%# '
 fi
 
-type eza &>/dev/null && alias ls='eza'
-type bat &>/dev/null && alias cat='bat'
-type procs &>/dev/null && alias ps='procs'
-type rg &>/dev/null && alias grep='rg'
-type fd &>/dev/null && alias find='fd'
-type hexyl &>/dev/null && alias od='hexyl'
-type tokei &>/dev/null && alias wc='tokei'
+if [ "$TERM_PROGRAM" != "vscode" ]; then
+    type eza &>/dev/null && alias ls='eza'
+    type bat &>/dev/null && alias cat='bat'
+    type procs &>/dev/null && alias ps='procs'
+    type rg &>/dev/null && alias grep='rg'
+    type fd &>/dev/null && alias find='fd'
+    type hexyl &>/dev/null && alias od='hexyl'
+    type tokei &>/dev/null && alias wc='tokei'
+fi
 
 alias ll='ls -l'
 alias la='ls -A'
