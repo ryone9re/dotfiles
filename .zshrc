@@ -16,11 +16,6 @@ else
     PROMPT='%n@%m:%~%# '
 fi
 
-export GPG_TTY=$(tty)
-if command -v gpgconf >/dev/null; then
-  export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
-fi
-
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
