@@ -16,6 +16,15 @@ else
     PROMPT='%n@%m:%~%# '
 fi
 
+export GPG_TTY=$(tty)
+if command -v gpgconf >/dev/null; then
+  export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+fi
+
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+
 if [ "$TERM_PROGRAM" != "vscode" ]; then
     type eza &>/dev/null && alias ls='eza'
     type bat &>/dev/null && alias cat='bat'
@@ -25,10 +34,6 @@ if [ "$TERM_PROGRAM" != "vscode" ]; then
     type hexyl &>/dev/null && alias od='hexyl'
     type tokei &>/dev/null && alias wc='tokei'
 fi
-
-alias ll='ls -l'
-alias la='ls -A'
-alias l='ls -CF'
 
 [ -f "$HOME/.orbstack/shell/init.zsh" ] && source "$HOME/.orbstack/shell/init.zsh"
 
