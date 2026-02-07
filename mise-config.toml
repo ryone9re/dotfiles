@@ -9,3 +9,6 @@ ghcup = "latest"
 
 # Node.js
 node = "lts"
+
+# Python
+uv = "latest"

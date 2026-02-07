@@ -20,6 +20,8 @@ alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias rm='saferm'
+
 if [ "$TERM_PROGRAM" != "vscode" ]; then
     type eza &>/dev/null && alias ls='eza'
     type bat &>/dev/null && alias cat='bat'
