@@ -35,3 +35,4 @@ fi
 [ -f "$HOME/.orbstack/shell/init.zsh" ] && source "$HOME/.orbstack/shell/init.zsh"
 
 eval "$(mise activate zsh)"
+eval "$(git wt --init zsh)"

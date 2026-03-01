@@ -1,0 +1,16 @@
+# OS generated files
+.DS_Store
+
+# Worktree settings
+.wt/
+
+# Temp artifacts
+ignores/
+
+# AI
+prompts/
+AGENTS.md
+
+# Claude code
+.claude/
+CLAUDE.md

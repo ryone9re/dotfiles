@@ -6,7 +6,7 @@
   "diffEditor.codeLens": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "always",
-    "source.organizeImports": "always"
+    "source.organizeImports": "always",
   },
   "editor.codeLensFontFamily": "'PlemolJP Console NF'",
   "editor.copyWithSyntaxHighlighting": false,
@@ -121,13 +121,13 @@
           "variable.name",
           "variable.other",
           "variable.other.readwrite",
-          "variable.parameter"
+          "variable.parameter",
         ],
         "settings": {
-          "fontStyle": ""
-        }
-      }
-    ]
+          "fontStyle": "",
+        },
+      },
+    ],
   },
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.unicodeHighlight.includeComments": false,
@@ -147,54 +147,54 @@
   "github.copilot.chat.codeGeneration.useInstructionFiles": false,
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
-      "text": "Always write commit messages in English"
+      "text": "Always write commit messages in English",
     },
     {
-      "text": "Start every commit message with an appropriate emoji followed by a type prefix"
+      "text": "Start every commit message with an appropriate emoji followed by a type prefix",
     },
     {
-      "text": "Use these emoji-type combinations: ✨ feat: for new features, 🐛 fix: for bug fixes, 📝 docs: for documentation, 💄 style: for formatting/style changes, ♻️ refactor: for code refactoring, ⚡ perf: for performance improvements, ✅ test: for tests, 🔧 chore: for maintenance tasks, 🚀 deploy: for deployment, 🔥 remove: for code removal, 🚚 move: for file moves/renames, ⬆️ upgrade: for dependency upgrades, ⬇️ downgrade: for dependency downgrades, 🎉 init: for initial commits, 🚧 wip: for work in progress, 💚 ci: for CI changes, 🔒 security: for security fixes"
+      "text": "Use these emoji-type combinations: ✨ feat: for new features, 🐛 fix: for bug fixes, 📝 docs: for documentation, 💄 style: for formatting/style changes, ♻️ refactor: for code refactoring, ⚡ perf: for performance improvements, ✅ test: for tests, 🔧 chore: for maintenance tasks, 🚀 deploy: for deployment, 🔥 remove: for code removal, 🚚 move: for file moves/renames, ⬆️ upgrade: for dependency upgrades, ⬇️ downgrade: for dependency downgrades, 🎉 init: for initial commits, 🚧 wip: for work in progress, 💚 ci: for CI changes, 🔒 security: for security fixes",
     },
     {
-      "text": "Format: <emoji> <type>: <subject> with subject line max 50 characters"
+      "text": "Format: <emoji> <type>: <subject> with subject line max 50 characters",
     },
     {
-      "text": "Write subject line in imperative mood (Add, Fix, Update, not Added, Fixed, Updated)"
+      "text": "Write subject line in imperative mood (Add, Fix, Update, not Added, Fixed, Updated)",
     },
     {
-      "text": "Capitalize the first letter of the subject line"
+      "text": "Capitalize the first letter of the subject line",
     },
     {
-      "text": "Do not end the subject line with a period"
+      "text": "Do not end the subject line with a period",
     },
     {
-      "text": "Leave a blank line between subject and body"
+      "text": "Leave a blank line between subject and body",
     },
     {
-      "text": "Wrap body text at 72 characters per line"
+      "text": "Wrap body text at 72 characters per line",
     },
     {
-      "text": "Explain WHY the change was made in the body, not just what was changed"
+      "text": "Explain WHY the change was made in the body, not just what was changed",
     },
     {
-      "text": "Include bullet points in body for multiple changes using - prefix"
+      "text": "Include bullet points in body for multiple changes using - prefix",
     },
     {
-      "text": "Reference issue numbers in footer using Closes #XXX or Fixes #XXX"
+      "text": "Reference issue numbers in footer using Closes #XXX or Fixes #XXX",
     },
     {
-      "text": "Mark breaking changes clearly with BREAKING CHANGE: in the footer"
+      "text": "Mark breaking changes clearly with BREAKING CHANGE: in the footer",
     },
     {
-      "text": "Keep each commit focused on a single logical change"
+      "text": "Keep each commit focused on a single logical change",
     },
     {
-      "text": "Example format: ✨ feat: Add user authentication\\n\\nImplement JWT-based auth for API endpoints.\\n- Add login endpoint\\n- Add token validation\\n\\nCloses #123"
-    }
+      "text": "Example format: ✨ feat: Add user authentication\\n\\nImplement JWT-based auth for API endpoints.\\n- Add login endpoint\\n- Add token validation\\n\\nCloses #123",
+    },
   ],
   "github.copilot.editor.enableCodeActions": false,
   "github.copilot.enable": {
-    "*": false
+    "*": false,
   },
   "githubPullRequests.createOnPublishBranch": "never",
   "githubPullRequests.pullBranch": "never",
@@ -215,8 +215,8 @@
   "leetcode.filePath": {
     "default": {
       "filename": "${difficulty}_${id}_${snake_case_name}.${ext}",
-      "folder": "src"
-    }
+      "folder": "src",
+    },
   },
   "leetcode.showDescription": "In File Comment",
   "leetcode.workspaceFolder": "/Users/ryo/projects/apps/arai60",
@@ -241,7 +241,6 @@
   "typescript.referencesCodeLens.showOnAllFunctions": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "update.showReleaseNotes": false,
-  "window.commandCenter": false,
   "window.restoreWindows": "none",
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground1": "#50FA7BB0",
@@ -255,9 +254,12 @@
     "editorIndentGuide.background3": "#BD93F948",
     "editorIndentGuide.background4": "#FF79C648",
     "editorIndentGuide.background5": "#FFB86C48",
-    "editorIndentGuide.background6": "#F1FA8C48"
+    "editorIndentGuide.background6": "#F1FA8C48",
   },
   "workbench.colorTheme": "Dracula Theme",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "chat.useClaudeHooks": true,
+  "claudeCode.selectedModel": "opus",
+  "chat.viewSessions.orientation": "stacked",
 }
