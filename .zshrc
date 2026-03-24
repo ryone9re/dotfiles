@@ -1,6 +1,7 @@
 setopt autocd interactivecomments magicequalsubst promptsubst
 
-autoload -Uz compinit
+fpath=(~/.zsh/functions $fpath)
+autoload -Uz compinit git-bare
 compinit -d ~/.cache/zcompdump
 zstyle ':completion:*:*:*:*:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'

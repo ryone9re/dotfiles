@@ -1,0 +1,11 @@
+local url=${1:?Usage: git-bare <url> [directory]}
+local dir=${2:-${url:t}}
+[[ "$dir" != *.git ]] && dir="${dir}.git"
+
+print -P "%F{blue}Cloning --bare:%f $url -> $dir"
+git clone --bare "$url" "$dir" || return 1
+
+git -C "$dir" config remote.origin.fetch "+refs/heads/*:refs/heads/*"
+git -C "$dir" config remote.origin.prune true
+
+print -P "%F{green}Done: $dir%f"
