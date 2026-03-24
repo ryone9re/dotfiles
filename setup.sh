@@ -19,5 +19,3 @@ if [ ! -d ~/Library/Application\ Support/Code/User ]; then
     mkdir -p ~/Library/Application\ Support/Code/User
 fi
 ln -snfv ${PWD}/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
