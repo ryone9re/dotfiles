@@ -1,23 +1,25 @@
 [tools]
-"usage" = "latest"
-
 # Runtimes and toolchains
-"ghcup" = "latest"
-"node" = "lts"
-"rust" = "latest"
-"uv" = "latest"
+ghcup = "latest"
+node = "lts"
+rust = "latest"
+uv = "latest"
 
-# CLI tools
-"aqua:sharkdp/bat" = "latest"
-"aqua:Wilfred/difftastic" = "latest"
-"github:eza-community/eza" = "latest"
-"aqua:sharkdp/fd" = "latest"
-"aqua:junegunn/fzf" = "latest"
-"aqua:cli/cli" = "latest"
-"aqua:sharkdp/hexyl" = "latest"
-"aqua:jqlang/jq" = "latest"
-"github:dalance/procs" = "latest"
-"aqua:BurntSushi/ripgrep" = "latest"
-"aqua:XAMPPRocky/tokei" = "latest"
-"aqua:mikefarah/yq" = "latest"
-"aqua:ajeetdsouza/zoxide" = "latest"
+# CLI tools (registry shorthand)
+bat = "latest"
+difftastic = "latest"
+eza = "latest"
+fd = "latest"
+fzf = "latest"
+gh = "latest"
+hexyl = "latest"
+jq = "latest"
+procs = "latest"
+ripgrep = "latest"
+tokei = "latest"
+usage = "latest"
+yq = "latest"
+zoxide = "latest"
+
+[tool_alias]
+procs = "github:dalance/procs"
