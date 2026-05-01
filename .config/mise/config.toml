@@ -1,14 +1,23 @@
 [tools]
-usage = "latest"
+"usage" = "latest"
 
-# Rust
-rust = "latest"
+# Runtimes and toolchains
+"ghcup" = "latest"
+"node" = "lts"
+"rust" = "latest"
+"uv" = "latest"
 
-# Haskell toolchain manager
-ghcup = "latest"
-
-# Node.js
-node = "lts"
-
-# Python
-uv = "latest"
+# CLI tools
+"aqua:sharkdp/bat" = "latest"
+"aqua:Wilfred/difftastic" = "latest"
+"github:eza-community/eza" = "latest"
+"aqua:sharkdp/fd" = "latest"
+"aqua:junegunn/fzf" = "latest"
+"aqua:cli/cli" = "latest"
+"aqua:sharkdp/hexyl" = "latest"
+"aqua:jqlang/jq" = "latest"
+"github:dalance/procs" = "latest"
+"aqua:BurntSushi/ripgrep" = "latest"
+"aqua:XAMPPRocky/tokei" = "latest"
+"aqua:mikefarah/yq" = "latest"
+"aqua:ajeetdsouza/zoxide" = "latest"

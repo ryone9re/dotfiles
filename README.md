@@ -13,5 +13,11 @@
 ---
 
 ```zsh
+mise install
+```
+
+---
+
+```zsh
 ./fonts.sh
 ```

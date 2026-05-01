@@ -17,20 +17,18 @@ else
     PROMPT='%n@%m:%~%# '
 fi
 
-alias ll='ls -l'
-alias la='ls -A'
 alias l='ls -CF'
-
-alias rm='saferm'
+alias la='ls -A'
+alias ll='ls -l'
 
 if [ "$TERM_PROGRAM" != "vscode" ]; then
-    type eza &>/dev/null && alias ls='eza'
     type bat &>/dev/null && alias cat='bat'
-    type procs &>/dev/null && alias ps='procs'
-    type rg &>/dev/null && alias grep='rg'
+    type eza &>/dev/null && alias ls='eza'
     type fd &>/dev/null && alias find='fd'
     type hexyl &>/dev/null && alias od='hexyl'
+    type procs &>/dev/null && alias ps='procs'
+    type rg &>/dev/null && alias grep='rg'
+    type saferm &>/dev/null && alias rm='saferm'
     type tokei &>/dev/null && alias wc='tokei'
+    type z &>/dev/null && alias cd='z'
 fi
-
-[ -f "$HOME/.orbstack/shell/init.zsh" ] && source "$HOME/.orbstack/shell/init.zsh"
