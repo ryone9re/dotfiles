@@ -5,6 +5,11 @@ ln -snfv ${PWD}/.zprofile ~/.zprofile
 ln -snfv ${PWD}/.zshrc ~/.zshrc
 ln -snfv ${PWD}/.wezterm.lua ~/.wezterm.lua
 
+if [ ! -d ~/.codex ]; then
+    mkdir -p ~/.codex
+fi
+cp -fv ${PWD}/.codex/config.toml ~/.codex/config.toml
+
 if [ ! -d ~/.config/mise ]; then
     mkdir -p ~/.config/mise
 fi
