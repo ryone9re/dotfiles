@@ -5,11 +5,12 @@ node = "lts"
 rust = "latest"
 uv = "latest"
 
-# CLI tools (registry shorthand)
+# CLI tools
 bat = "latest"
 difftastic = "latest"
 eza = "latest"
 fd = "latest"
+ffmpeg = "latest"
 fzf = "latest"
 gh = "latest"
 hexyl = "latest"

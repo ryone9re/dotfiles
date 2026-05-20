@@ -4,7 +4,6 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 APPS="
-cmd-eikana
 discord
 google-chrome
 google-japanese-ime
@@ -14,6 +13,7 @@ raycast
 rectangle
 slack
 the-unarchiver
+tree
 visual-studio-code
 wezterm
 "
