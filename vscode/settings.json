@@ -164,15 +164,6 @@
   "js/ts.referencesCodeLens.enabled": true,
   "js/ts.referencesCodeLens.showOnAllFunctions": true,
   "js/ts.updateImportsOnFileMove.enabled": "always",
-  "leetcode.defaultLanguage": "rust",
-  "leetcode.filePath": {
-    "default": {
-      "filename": "${difficulty}_${id}_${snake_case_name}.${ext}",
-      "folder": "src"
-    }
-  },
-  "leetcode.showDescription": "In File Comment",
-  "leetcode.workspaceFolder": "/Users/ryo/projects/apps/arai60",
   "lldb.suppressUpdateNotifications": true,
   "redhat.telemetry.enabled": true,
   "remote.autoForwardPortsSource": "hybrid",
