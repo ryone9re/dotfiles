@@ -9,6 +9,7 @@ ln -snfv ${PWD}/AGENTS.md ~/AGENTS.md
 if [ ! -d ~/.codex ]; then
     mkdir -p ~/.codex
 fi
+ln -snfv ${PWD}/AGENTS.md ~/.codex/AGENTS.md
 cp -fv ${PWD}/.codex/config.toml ~/.codex/config.toml
 
 if [ ! -d ~/.config/mise ]; then
