@@ -4,7 +4,7 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 APPS="
-codex
+codex-app
 discord
 google-chrome
 google-japanese-ime

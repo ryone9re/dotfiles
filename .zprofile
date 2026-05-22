@@ -10,4 +10,4 @@ eval "$(mise activate zsh)"
 type fzf &>/dev/null && source <(fzf --zsh)
 type zoxide &>/dev/null && eval "$(zoxide init zsh)"
 
-[ -f "$HOME/.orbstack/shell/init.zsh" ] && source "$HOME/.orbstack/shell/init.zsh"
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :
