@@ -27,13 +27,11 @@ enabled = true
 [plugins."browser@openai-bundled"]
 enabled = true
 
+[plugins."superpowers@openai-curated"]
+enabled = true
+
 [mcp_servers."context7"]
 command = "npx"
 args = ["-y", "@upstash/context7-mcp"]
 enabled = true
 startup_timeout_sec = 30
-
-[marketplaces.openai-bundled]
-last_updated = "2026-05-20T11:00:40Z"
-source_type = "local"
-source = "/Users/ryo/.codex/.tmp/bundled-marketplaces/openai-bundled"
