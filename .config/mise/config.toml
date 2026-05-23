@@ -17,7 +17,6 @@ hexyl = "latest"
 jq = "latest"
 procs = "latest"
 ripgrep = "latest"
-saferm = "latest"
 tokei = "latest"
 usage = "latest"
 yq = "latest"
@@ -25,4 +24,3 @@ zoxide = "latest"
 
 [tool_alias]
 procs = "github:dalance/procs"
-saferm = "github:ryone9re/saferm"
