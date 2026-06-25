@@ -10,7 +10,6 @@ ignores/
 
 # AI
 prompts/
-AGENTS.md
 
 # Claude code
 .claude/
