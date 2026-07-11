@@ -1,4 +1,7 @@
 [tools]
+# Development tools
+codex = "latest"
+
 # Runtimes and toolchains
 ghcup = "latest"
 node = "lts"
