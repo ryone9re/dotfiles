@@ -26,3 +26,28 @@ enabled = true
 
 [plugins."browser@openai-bundled"]
 enabled = true
+
+[desktop]
+ambient-suggestions-enabled = true
+appearanceDarkCodeThemeId = "dracula"
+preventSleepWhileRunning = true
+keepRemoteControlAwakeWhilePluggedIn = true
+git-branch-prefix = ""
+conversationDetailMode = "STEPS_COMMANDS"
+hotkey-window-projectless-default-enabled = true
+dictationDictionary = []
+notifications-turn-mode = "always"
+codeFontSize = 16
+sansFontSize = 16
+mac-menu-bar-enabled = false
+followUpQueueMode = "queue"
+open-local-url-in-target-preference = "external-browser"
+dock-icon-preference = "app-default"
+appshotSoundEnabled = false
+git-pull-request-merge-method = "squash"
+open-link-in-target-preference = "external-browser"
+enabled-reasoning-efforts = ["low", "medium", "high", "xhigh", "ultra", "max"]
+
+[desktop.appearanceDarkChromeTheme.fonts]
+code = "PlemolJP Console NF"
+ui = "IBM Plex Sans JP"
