@@ -5,8 +5,6 @@ ln -snfv ${PWD}/.zprofile ~/.zprofile
 ln -snfv ${PWD}/.zshrc ~/.zshrc
 ln -snfv ${PWD}/.wezterm.lua ~/.wezterm.lua
 
-ln -snfv ${PWD}/.agents ~/.agents
-
 if [ ! -d ~/.codex ]; then
     mkdir -p ~/.codex
 fi
