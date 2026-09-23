@@ -30,6 +30,7 @@ open-local-url-in-target-preference = "external-browser"
 git-branch-prefix = ""
 git-pull-request-merge-method = "squash"
 enabled-reasoning-efforts = ["low", "medium", "high", "xhigh", "ultra", "max"]
+worktree-upstream-refresh-mode = "best-effort"
 
 [desktop.appearanceDarkChromeTheme.fonts]
 code = "PlemolJP Console NF"
