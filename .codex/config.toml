@@ -3,9 +3,6 @@ sandbox_mode = "workspace-write"
 approval_policy = "on-request"
 approvals_reviewer = "auto_review"
 
-model = "gpt-6-astra"
-model_reasoning_effort = "high"
-
 service_tier = "default"
 web_search = "live"
 
