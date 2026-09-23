@@ -10,8 +10,7 @@ uv = "latest"
 
 # CLI tools
 bat = "latest"
-difftastic = "latest"
-eza = "0.23.4" # latest not found
+eza = "0.23.4"     # latest not found
 fd = "latest"
 ffmpeg = "latest"
 fzf = "latest"

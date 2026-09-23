@@ -3,29 +3,14 @@ sandbox_mode = "workspace-write"
 approval_policy = "on-request"
 approvals_reviewer = "auto_review"
 
-model = "gpt-5.6-sol"
+model = "gpt-6-astra"
 model_reasoning_effort = "high"
+
+service_tier = "default"
+web_search = "live"
 
 [sandbox_workspace_write]
 network_access = true
-
-[features]
-multi_agent = true
-memories = true
-
-[memories]
-use_memories = true
-generate_memories = true
-disable_on_external_context = true
-
-[plugins."computer-use@openai-bundled"]
-enabled = true
-
-[plugins."chrome@openai-bundled"]
-enabled = true
-
-[plugins."browser@openai-bundled"]
-enabled = true
 
 [desktop]
 appearanceDarkCodeThemeId = "dracula"
@@ -44,15 +29,26 @@ open-link-in-target-preference = "external-browser"
 open-local-url-in-target-preference = "external-browser"
 git-branch-prefix = ""
 git-pull-request-merge-method = "squash"
-enabled-reasoning-efforts = [
-  "low",
-  "medium",
-  "high",
-  "xhigh",
-  "ultra",
-  "max",
-]
+enabled-reasoning-efforts = ["low", "medium", "high", "xhigh", "ultra", "max"]
 
 [desktop.appearanceDarkChromeTheme.fonts]
 code = "PlemolJP Console NF"
 ui = "IBM Plex Sans JP"
+
+[features]
+multi_agent = true
+memories = true
+
+[memories]
+use_memories = true
+generate_memories = true
+disable_on_external_context = true
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[plugins."chrome@openai-bundled"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
