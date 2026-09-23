@@ -8,11 +8,12 @@ ln -snfv ${PWD}/.wezterm.lua ~/.wezterm.lua
 if [ ! -d ~/.codex ]; then
     mkdir -p ~/.codex
 fi
+cp -fv ${PWD}/.codex/config.toml ~/.codex/config.toml
+ln -snfv ${PWD}/.codex/AGENTS.md ~/.codex/AGENTS.md
 if [ ! -d ~/.codex/rules ]; then
     mkdir -p ~/.codex/rules
 fi
 ln -snfv ${PWD}/.codex/rules/default.rules ~/.codex/rules/default.rules
-cp -fv ${PWD}/.codex/config.toml ~/.codex/config.toml
 
 if [ ! -d ~/.config/mise ]; then
     mkdir -p ~/.config/mise
