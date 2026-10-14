@@ -7,6 +7,10 @@
 
 ## Tools
 
+### Browser
+
+- ログイン状態などをそのまま使用するため、内部ブラウザではなくChrome連携を優先して使用する
+
 ### git
 
 - GitHub上の情報を取得/更新する場合はghコマンドの使用を優先する
@@ -14,11 +18,10 @@
 
 ## Development
 
-### Development Style
+### Style
 
-- 新たな実装/修正/レビュー指示は常にworktree上に行う
-  - worktreeはcodex設定で指定されているディレクトリに作成する
-  - 事前の内容から継続されていると判断できる場合は既存のworktreeを活用する
+- タスクを分解し、Step by Stepで開発を進める
+- Human-in-the-Loopを用い、必要な箇所で適宜フィードバックを求める
 
 ### Creating Pull Requests
 

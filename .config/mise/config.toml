@@ -1,10 +1,8 @@
 [tools]
-# Development tools
-codex = "latest"
-
 # Runtimes and toolchains
 ghcup = "latest"
 node = "lts"
+pnpm = "latest"
 rust = "latest"
 uv = "latest"
 
@@ -24,5 +22,9 @@ usage = "latest"
 yq = "latest"
 zoxide = "latest"
 
+# Own tools
+saferm = "latest"
+
 [tool_alias]
 procs = "github:dalance/procs"
+saferm = "github:ryone9re/saferm"

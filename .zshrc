@@ -21,6 +21,8 @@ alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -l'
 
+type saferm &>/dev/null && alias rm='saferm'
+
 type bat &>/dev/null && alias cat='bat'
 type eza &>/dev/null && alias ls='eza'
 type fd &>/dev/null && alias find='fd'
@@ -30,3 +32,5 @@ type rg &>/dev/null && alias grep='rg'
 type saferm &>/dev/null && alias rm='saferm'
 type tokei &>/dev/null && alias wc='tokei'
 type z &>/dev/null && alias cd='z'
+
+alias codex='/Applications/ChatGPT.app/Contents/Resources/codex'
