@@ -1,6 +1,9 @@
 [tools]
+# Agent Harness
+claude = "latest"
+codex = "latest"
+
 # Runtimes and toolchains
-ghcup = "latest"
 node = "lts"
 pnpm = "latest"
 rust = "latest"

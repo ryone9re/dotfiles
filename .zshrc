@@ -32,5 +32,3 @@ type rg &>/dev/null && alias grep='rg'
 type saferm &>/dev/null && alias rm='saferm'
 type tokei &>/dev/null && alias wc='tokei'
 type z &>/dev/null && alias cd='z'
-
-alias codex='/Applications/ChatGPT.app/Contents/Resources/codex'
