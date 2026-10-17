@@ -11,3 +11,7 @@ type fzf &>/dev/null && source <(fzf --zsh)
 type zoxide &>/dev/null && eval "$(zoxide init zsh)"
 
 source ~/.orbstack/shell/init.zsh 2>/dev/null || :
+
+# >>> Codex installer >>>
+export PATH="/Users/ryo/.local/bin:$PATH"
+# <<< Codex installer <<<

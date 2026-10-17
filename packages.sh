@@ -4,7 +4,7 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 APPS="
-codex-app
+chatgpt
 discord
 dominion525/tap/cmd-eikana
 google-chrome
