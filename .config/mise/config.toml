@@ -1,8 +1,4 @@
 [tools]
-# Agent Harness
-claude = "latest"
-codex = "latest"
-
 # Runtimes and toolchains
 node = "lts"
 pnpm = "latest"
