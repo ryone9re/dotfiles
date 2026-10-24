@@ -1,0 +1,115 @@
+{
+  "enableWorkflows": true,
+  "enabledPlugins": {
+    "pstack@cursor-plugins": true,
+    "yomiyasu@yomiyasu": true,
+    "ponytail@ponytail": true
+  },
+  "extraKnownMarketplaces": {
+    "cursor-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "cursor/plugins"
+      }
+    },
+    "yomiyasu": {
+      "source": {
+        "source": "github",
+        "repo": "nanaism/yomiyasu"
+      }
+    },
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    }
+  },
+  "pluginConfigs": {
+    "ponytail@ponytail": {
+      "options": {
+        "ledger": false,
+        "sendNames": true
+      }
+    }
+  },
+  "tui": "fullscreen",
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "dark",
+  "agentPushNotifEnabled": true,
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Bash(pwd:*)",
+      "Bash(date:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(nl:*)",
+      "Bash(wc:*)",
+      "Bash(stat:*)",
+      "Bash(which:*)",
+      "Bash(file:*)",
+      "Bash(readlink:*)",
+      "Bash(realpath:*)",
+      "Bash(find:*)",
+      "Bash(rg:*)",
+      "Bash(grep:*)",
+      "Bash(sed:*)",
+      "Bash(awk:*)",
+      "Bash(cut:*)",
+      "Bash(tr:*)",
+      "Bash(sort:*)",
+      "Bash(uniq:*)",
+      "Bash(basename:*)",
+      "Bash(dirname:*)",
+      "Bash(env:*)",
+      "Bash(printenv:*)",
+      "Bash(uname:*)",
+      "Bash(arch:*)",
+      "Bash(ps:*)",
+      "Bash(procs:*)",
+      "Bash(lsof:*)",
+      "Bash(du:*)",
+      "Bash(df:*)",
+      "Bash(tree:*)",
+      "Bash(plutil:*)",
+      "Bash(sqlite3:*)",
+      "Bash(strings:*)",
+      "Bash(xxd:*)",
+      "Bash(bat:*)",
+      "Bash(eza:*)",
+      "Bash(fd:*)",
+      "Bash(fzf:*)",
+      "Bash(hexyl:*)",
+      "Bash(jq:*)",
+      "Bash(tokei:*)",
+      "Bash(usage:*)",
+      "Bash(yq:*)",
+      "Bash(zoxide:*)",
+      "Bash(difft:*)",
+      "Bash(difftastic:*)",
+      "Bash(git:*)",
+      "Bash(gh:*)",
+      "Bash(mise:*)",
+      "Bash(codex:*)",
+      "Bash(brew:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(corepack:*)",
+      "Bash(pnpm:*)",
+      "Bash(yarn:*)",
+      "Bash(uv:*)",
+      "Bash(cargo:*)",
+      "Bash(rustc:*)",
+      "Bash(ghcup:*)",
+      "Bash(ghc:*)",
+      "Bash(ghci:*)",
+      "Bash(cabal:*)",
+      "Bash(stack:*)",
+      "Bash(ffmpeg:*)"
+    ]
+  }
+}

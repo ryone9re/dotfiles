@@ -15,6 +15,12 @@ if [ ! -d ~/.codex/rules ]; then
 fi
 ln -snfv ${PWD}/.codex/rules/default.rules ~/.codex/rules/default.rules
 
+if [ ! -d ~/.claude ]; then
+    mkdir -p ~/.claude
+fi
+cp -fv ${PWD}/.claude/settings.json ~/.claude/settings.json
+ln -snfv ${PWD}/.codex/AGENTS.md ~/.claude/CLAUDE.md
+
 if [ ! -d ~/.config/mise ]; then
     mkdir -p ~/.config/mise
 fi

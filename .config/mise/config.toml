@@ -1,7 +1,6 @@
 [tools]
 # Runtimes and toolchains
-node = "lts"
-pnpm = "latest"
+bun = "latest"
 rust = "latest"
 uv = "latest"
 

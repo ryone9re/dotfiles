@@ -24,6 +24,7 @@ alias ll='ls -l'
 type saferm &>/dev/null && alias rm='saferm'
 
 type bat &>/dev/null && alias cat='bat'
+type bun &>/dev/null && alias node='bun'
 type eza &>/dev/null && alias ls='eza'
 type fd &>/dev/null && alias find='fd'
 type hexyl &>/dev/null && alias od='hexyl'
